@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TEST" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="999,997 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">NOT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TEST/A01" type="logic">
+         <obj_property name="ElementShortName">A01</obj_property>
+         <obj_property name="ObjectShortName">A01</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/A03" type="logic">
+         <obj_property name="ElementShortName">A03</obj_property>
+         <obj_property name="ObjectShortName">A03</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">AND</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TEST/B01" type="logic">
+         <obj_property name="ElementShortName">B01</obj_property>
+         <obj_property name="ObjectShortName">B01</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/B02" type="logic">
+         <obj_property name="ElementShortName">B02</obj_property>
+         <obj_property name="ObjectShortName">B02</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/B03" type="logic">
+         <obj_property name="ElementShortName">B03</obj_property>
+         <obj_property name="ObjectShortName">B03</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">XNOR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TEST/C01" type="logic">
+         <obj_property name="ElementShortName">C01</obj_property>
+         <obj_property name="ObjectShortName">C01</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/C02" type="logic">
+         <obj_property name="ElementShortName">C02</obj_property>
+         <obj_property name="ObjectShortName">C02</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/C03" type="logic">
+         <obj_property name="ElementShortName">C03</obj_property>
+         <obj_property name="ObjectShortName">C03</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">NAND</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TEST/D01" type="logic">
+         <obj_property name="ElementShortName">D01</obj_property>
+         <obj_property name="ObjectShortName">D01</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/D02" type="logic">
+         <obj_property name="ElementShortName">D02</obj_property>
+         <obj_property name="ObjectShortName">D02</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TEST/D03" type="logic">
+         <obj_property name="ElementShortName">D03</obj_property>
+         <obj_property name="ObjectShortName">D03</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

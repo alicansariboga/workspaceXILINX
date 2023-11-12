@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MUL_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MUL" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/MUL/D0" type="logic">
+      <obj_property name="ElementShortName">D0</obj_property>
+      <obj_property name="ObjectShortName">D0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D1" type="logic">
+      <obj_property name="ElementShortName">D1</obj_property>
+      <obj_property name="ObjectShortName">D1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D2" type="logic">
+      <obj_property name="ElementShortName">D2</obj_property>
+      <obj_property name="ObjectShortName">D2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D3" type="logic">
+      <obj_property name="ElementShortName">D3</obj_property>
+      <obj_property name="ObjectShortName">D3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D4" type="logic">
+      <obj_property name="ElementShortName">D4</obj_property>
+      <obj_property name="ObjectShortName">D4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D5" type="logic">
+      <obj_property name="ElementShortName">D5</obj_property>
+      <obj_property name="ObjectShortName">D5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D6" type="logic">
+      <obj_property name="ElementShortName">D6</obj_property>
+      <obj_property name="ObjectShortName">D6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/D7" type="logic">
+      <obj_property name="ElementShortName">D7</obj_property>
+      <obj_property name="ObjectShortName">D7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/S0" type="logic">
+      <obj_property name="ElementShortName">S0</obj_property>
+      <obj_property name="ObjectShortName">S0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/S1" type="logic">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/S2" type="logic">
+      <obj_property name="ElementShortName">S2</obj_property>
+      <obj_property name="ObjectShortName">S2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUL/output1" type="logic">
+      <obj_property name="ElementShortName">output1</obj_property>
+      <obj_property name="ObjectShortName">output1</obj_property>
+   </wvobject>
+</wave_config>

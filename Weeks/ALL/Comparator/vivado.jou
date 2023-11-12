@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jan 12 16:58:14 2023
+# Process ID: 15252
+# Current directory: H:/XILINX/Weeks/ALL/Comparator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8220 H:\XILINX\Weeks\ALL\Comparator\Comparator.xpr
+# Log file: H:/XILINX/Weeks/ALL/Comparator/vivado.log
+# Journal file: H:/XILINX/Weeks/ALL/Comparator\vivado.jou
+# Running On: DESKTOP-4M0OQRD, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17004 MB
+#-----------------------------------------------------------
+start_gui
+open_project H:/XILINX/Weeks/ALL/Comparator/Comparator.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project H:/XILINX/Weeks/ALL/EdgeDedector/EdgeDedector.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project H:/XILINX/Weeks/ALL/FullAdder/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project H:/XILINX/Weeks/ALL/EdgeDedector/EdgeDedector.xpr
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property top FSM [current_fileset]
+close_project
+open_project H:/XILINX/Weeks/ALL/FSM/EdgeDedector.xpr
+set_property top edgeDedector [current_fileset]
+set_property top edgeDetector [current_fileset]
+set_property top edgeDetector [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+file mkdir H:/XILINX/Weeks/ALL/FSM/EdgeDedector.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open H:/XILINX/Weeks/ALL/FSM/EdgeDedector.srcs/sim_1/new/edgeDetector_VisualTest.vhd w ]
+add_files -fileset sim_1 H:/XILINX/Weeks/ALL/FSM/EdgeDedector.srcs/sim_1/new/edgeDetector_VisualTest.vhd
